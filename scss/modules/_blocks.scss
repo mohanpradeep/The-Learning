@@ -1,0 +1,102 @@
+.fade-quote-carousel {
+  .carousel {
+    margin: 110px 0 0;
+  }
+  .carousel-caption {
+    position: static;
+    text-align: inherit;
+    left: 0;
+    text-shadow: none;
+    h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 34px;
+    }
+    .title-block {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 35px;
+    }
+    > p {
+      font-size: 17px;
+      line-height: 21px;
+      font-weight: 400;
+    }
+  }
+  .carousel-indicators {
+    left: 15px;
+    top: 120px;
+    bottom: inherit;
+    .active {
+      background-color: $secondary-background-color;
+      border-color: #14b3f7;
+    }
+    li {
+      background-color: #fff;
+    }
+  }
+  .media-list {
+    margin-top: 20px;
+  }
+  .media-heading {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .media-body {
+    vertical-align: middle;
+  }
+  .media-heading span {
+    color: $secondary-color;
+  }
+  .media-left img {
+    border: solid 2px #ccc;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    vertical-align: super;
+  }
+}
+.block-comments {
+  color: #2d2d2d;
+  .fa, a {
+    color: $secondary-color;
+  }
+  span {
+    padding-right: 10px;
+  }
+}
+.course-block a{
+    color: $secondary-color;
+}
+.course-block a:hover{
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+.bolck-comments-sms {
+  .media-object {
+    border: 2px #ccc solid;
+  }
+  .media-heading > span, .fa {
+    color: $secondary-color;
+  }
+  padding: 15px 15px 10px;
+  box-sizing: border-box;
+  border: 2px solid #d4d4d4;
+  margin: 30px 0 10px;
+  border-radius: 4px;
+  overflow: auto;
+  p span {
+    padding-right: 10px;
+  }
+  li.media {
+    border-bottom: 2px solid #d4d4d4;
+    padding: 0 0 15px;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  .pagination-block .fa {
+    color: #fff;
+  }
+}

@@ -1,0 +1,106 @@
+.btn.btn_gradient{
+    background: -webkit-linear-gradient(#229806, #197802, #229806); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#229806, #197802, #229806); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#229806, #197802, #229806); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#229806, #197802, #229806); /* Standard syntax */
+    border: none;
+    border-radius: 0;
+}
+.btn.btn_gradient:hover{
+    background: -webkit-linear-gradient(#197802, #229806, #197802); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#197802, #229806, #197802); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#197802, #229806, #197802); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#197802, #229806, #197802); /* Standard syntax */
+    border: none;
+    border-radius: 0;
+}
+.btn.btn-orange {
+  background: -webkit-linear-gradient(#F36300, #CD4901); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F36300, #CD4901); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F36300, #CD4901); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F36300, #CD4901); /* Standard syntax */
+  padding:15px 18px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius:0;
+  margin:10px 0;
+  line-height: 10px;
+  width: initial;
+  &:focus, &:hover {
+    color: #fff;
+    background: -webkit-linear-gradient(#CD4901, #F36300);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#CD4901, #F36300);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#CD4901, #F36300);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#CD4901, #F36300);
+    /* Standard syntax */
+  }
+}
+
+.btn.btn-gray{
+  background-color: #A19D9C;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 2px;
+  width: initial;
+  &:focus, &:hover {
+    color: #fff;
+    background-color: #A19D94;
+  }
+  .fa{
+    padding-left: 15px;
+  }    
+}
+
+.btn.btn-gray-block{
+  background: -webkit-linear-gradient(#ebebeb, #cacaca); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ebebeb, #cacaca); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ebebeb, #cacaca); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ebebeb, #cacaca); /* Standard syntax */
+  border-radius: 0;
+  border: none;
+  color: #676767;
+  padding: 9px 20px;
+  &:focus, &:hover {
+  background: -webkit-linear-gradient(#cacaca, #ebebeb); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#cacaca, #ebebeb); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#cacaca, #ebebeb); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cacaca, #ebebeb); /* Standard syntax */
+  }
+}
+.slider .btn {
+  border-radius: 0;
+}
+
+.fa-chevron-block .controls .btn {
+  background-color: transparent;
+  border-color: $secondary-background-color;
+  border-radius: 0;
+  color: $secondary-color;
+  margin: 0 2px;
+  padding: 4px 8px;
+  &:hover {
+    background-color: $secondary-background-color;
+    color: #fff;
+  }
+}
+
+.btn.btn-effect {
+  padding: 12px 40px;
+  font-size: 19px;
+  margin: 25px 0;
+}
+
+.secondary .btn {
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+form .btn {
+  margin-top: 15px;
+}
